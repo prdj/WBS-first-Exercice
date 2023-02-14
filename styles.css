@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #088db5;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+
+  }
+  
+  nav ul a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul a:hover {
+    color: turquoise;
+    transition: all 0.3s;
+  }
+  
+  form {
+    padding: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    width: 30%;
+    background: cornflowerblue;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    transition: all 0.2s;
+  
+  }
+  
